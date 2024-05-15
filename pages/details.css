@@ -1,0 +1,47 @@
+.detailPage {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.detailPage .banner {
+  max-width: 1320px;
+  width: 100%;
+}
+.detailPage .banner img {
+  width: 100%;
+}
+.detailPage .section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.detailPage .section h2 {
+  font-size: 28px;
+}
+.detailPage .section div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailPage .section div h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+.detailPage .section div p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.detailPage .section button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #4bd;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.detailPage .section button:hover {
+  color: white;
+  background-color: rgb(43, 120, 142);
+}/*# sourceMappingURL=details.css.map */

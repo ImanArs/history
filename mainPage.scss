@@ -1,0 +1,67 @@
+.mainPage {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  .banner {
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  .sections-wrapper {
+    margin-top: 20px;
+    .title {
+      margin: 32px 0;
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 28px;
+      }
+      button {
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: #f5f5f5;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  }
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 34px;
+    div {
+      width: 100%;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+      img {
+        width: 100%;
+        height: 180px;
+      }
+      h2 {
+        margin: 8px 0;
+      }
+      p {
+        margin: 8px 0;
+        line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+
+      }
+    }
+  }
+  .aboutUs {}
+  .services {}
+  .contacts {}
+}

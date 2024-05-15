@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Обнуление стилей для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Обнуление стилей для элементов формы */
+input,
+button,
+textarea,
+select {
+  border: none;
+  outline: none;
+  /* Дополнительные стили для элементов формы могут быть добавлены здесь */
+}
+
+/* Обнуление стилей для списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Обнуление стилей для кнопок */
+button {
+  background: none;
+  cursor: pointer;
+}
+ul li a {
+  border-bottom: 2px solid #000;
+  transition: all .1s ease-in-out;
+}
+ul li a:hover{
+  color: red;
+  border-bottom-color: red;
+}
+
+/* Дополнительные обнуленные стили могут быть добавлены здесь */

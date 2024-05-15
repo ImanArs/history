@@ -1,0 +1,47 @@
+.detailPage {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;  
+  .banner {
+    max-width: 1320px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h2 {
+      font-size: 28px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h3 {
+        font-size: 20px;
+        font-style: italic;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+    }
+    button {
+      text-transform: uppercase;
+      font-weight: 600;
+      background-color: #4bd;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      &:hover {
+        color: white;
+        background-color: rgb(43, 120, 142);
+      }
+    }
+  }
+}
