@@ -93,7 +93,7 @@ const sections_kg = {
   ],
   traditions: [
     {
-      id: 1,
+      id: 11,
       image: "https://i.ytimg.com/vi/W8vOF1_35Bg/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGHIgTChEMA8=&rs=AOn4CLALMlucOogFqPKjZqXX-eLrCetu2Q",
       title: "Упай Ордо",
       description: "Упай Ордо - бул кыргызстандын улуттук обеди, ананын жөнүндө таянган тилдүү. Бул обед той, жыйынтык жана татымдуулуктун чоң күмөлдүрүлүшүн түшүндүрөт. Упай Ордо - гостерүүчүлүктүн жана үйрөнүүлүктүн алдын алуу же тамактын кызматкерлерге өз алдынча кызыктуу жөнүндө өлөшүндө түшүнүлүшү үчүн, булуу тойго тапталат.",
@@ -102,7 +102,7 @@ const sections_kg = {
       video: "",
     },
     {
-      id: 2,
+      id: 12,
       image: "https://www.advantour.com/img/kyrgyzstan/holidays/nooruz6.jpg",
       title: "Нооруз",
       description: "Нооруз - бул кыргызстандын улуттук жаңы жылды, көз карашында жана анын күлкүндөгү эң эңди праздиктердин бири. Бул айда жана жашоо жана жашоонун жана жашылыктын күлөмүн жорлоштоо үчүн бирге болуп, курактар жана досторлармен бирикүү үчүн түзөт. күндүзгү алыс жана туйуунун башкаларга аларды жеңиш жеңиштирүү жок болуп саналат.",
@@ -111,7 +111,7 @@ const sections_kg = {
       video: ""
     },
     {
-      id: 3,
+      id: 13,
       image: "https://24.kg/files/media/220/220236.jpg",
       title: "Орозо Айт, Курман Айт",
       description: "Орозо Айт жана Курман Айт - бул исламдык эркин азырында мусульмандар кыргызстанда түзөт. Орозо Айт Рамазан айынын аягына белгилөө жана Курман Айт - аягына белгилөө. Бул күндөрдө мусульмандар көз алганда бири-бирине бүтүн семья жана достор бирикүү үчүн, постун аягына белгилөө жана радостук күндү түзөт.",
@@ -120,7 +120,7 @@ const sections_kg = {
       video: ""
     },
     {
-      id: 4,
+      id: 14,
       image: "https://anhor.uz/wp-content/uploads/2024/03/1622723786_mceu_43022856831622723781723.jpg",
       title: "Дан тушум майрамы",
       description: "Дан тушум майрамы - бул кыргызстандын традициялуу праздиги, Рамазан айынын постун аягына белгилөө үчүн түзүлгөн. Бул праздикте семьялар жана досторлар бирикүү үчүн бирикүү үчүн, радостук күндү түзөт. Алар традициялуу тамактарды даярлоону жана туугандарга алдын башка берүү үчүн жакшы көзүн коргондо кийинки көзүн коргондо кийинки көзүн коргондо кыйыкты.",
@@ -129,7 +129,7 @@ const sections_kg = {
       video: ""
     },
     {
-      id: 5,
+      id: 15,
       image: "https://lh4.googleusercontent.com/proxy/VPYArGNXv5v2o6_rk-zHH3HSnkNXyADoYettOqZh8W_tcTz5HYUzNSWa_K9qPUEzpfcHjjK54cbffABxfhmbykpUkC19iBGAki-TmobXNQedeDDpjD4s4CAsAgPqVnUFuJ3n4-0VNygbq6U4",
       title: "Сармерден: кыргызстандык оюн",
       description: "Сармерден - бул кыргызстандык традициялуу оюн, койборуучулар өздөрүн көчкөн жогорку столдондо ойноп туруштурушу мүмкүнчүлүк берет. Бул оюн стратегиялуу ойунчулук жана дүрдүрлүктү алгылаштыруу мүмкүнчүлүк берет. Ойунчулар табдырмалуу үчүн жана дүрдүрлүктү алгылаштыруу мүмкүнчүлүк берет.",
@@ -234,7 +234,7 @@ const sections_en = {
   ],
   traditions: [
     {
-      id: 1,
+      id: 11,
       image: "https://i.ytimg.com/vi/W8vOF1_35Bg/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGHIgTChEMA8=&rs=AOn4CLALMlucOogFqPKjZqXX-eLrCetu2Q",
       title: "Upai Ordo",
       description: "Upai Ordo is a traditional Kyrgyz meal prepared and served in celebration of special events such as weddings, festivities, and holidays. It includes a variety of dishes made from meat, vegetables, and traditional flatbread. This meal symbolizes hospitality and friendliness towards guests, so its preparation is often associated with special care and attention to detail. The traditional dishes presented at Upai Ordo are an integral part of Kyrgyzstan's culture and culinary heritage.",
@@ -243,7 +243,7 @@ const sections_en = {
       video: ""
     },
     {
-      id: 2,
+      id: 12,
       image: "https://www.advantour.com/img/kyrgyzstan/holidays/nooruz6.jpg",
       title: "Nowruz",
       description: "Nowruz is a traditional Kyrgyz New Year celebrated in spring and is one of the most important holidays in the country's culture. It is associated with the celebration of nature, renewal, and rejuvenation of life. On this day, people gather with family and friends to mark the beginning of the new year and spend time joyfully and festively.",
@@ -252,7 +252,7 @@ const sections_en = {
       video: ""
     },
     {
-      id: 3,
+      id: 13,
       image: "https://24.kg/files/media/220/220236.jpg",
       title: "Orozo Ait, Kurman Ait",
       description: "Orozo Ait and Kurman Ait are two of the most important religious holidays in Islam celebrated by Muslims in Kyrgyzstan. Orozo Ait marks the end of the month of Ramadan, while Kurman Ait marks the end of the holiday. On these days, Muslims gather with family and friends to mark the end of the sacred month of fasting and celebrate the joyous occasion.",
@@ -261,7 +261,7 @@ const sections_en = {
       video: ""
     },
     {
-      id: 4,
+      id: 14,
       image: "https://anhor.uz/wp-content/uploads/2024/03/1622723786_mceu_43022856831622723781723.jpg",
       title: "Dan Tushum Mayramy",
       description: "Dan Tushum Mayramy is a traditional Kyrgyz holiday celebrated in honor of the end of the Muslim fasting month of Ramadan. During this holiday, families and friends gather together to celebrate the joyous occasion. They prepare traditional dishes and spend time in the company of loved ones.",
@@ -270,7 +270,7 @@ const sections_en = {
       video: ""
     },
     {
-      id: 5,
+      id: 15,
       image: "https://lh4.googleusercontent.com/proxy/VPYArGNXv5v2o6_rk-zHH3HSnkNXyADoYettOqZh8W_tcTz5HYUzNSWa_K9qPUEzpfcHjjK54cbffABxfhmbykpUkC19iBGAki-TmobXNQedeDDpjD4s4CAsAgPqVnUFuJ3n4-0VNygbq6U4",
       title: "Sarmerden: Kyrgyz Game",
       description: "Sarmerden is a traditional Kyrgyz game in which two participants compete by moving pieces on a special game board. This game requires strategic thinking and the ability to anticipate opponents' moves. Players vie to capture their opponent's pieces, using tactical maneuvers and blockades to achieve their goals.",
@@ -372,19 +372,10 @@ const sections_ru = {
       history: "Куш салуу имеет древние корни и является неотъемлемой частью кыргызской культурной традиции. Эта игра возникла в эпоху кочевничества и отражает навыки и смелость кыргызских наездников. В прошлом игра служила не только развлечением, но и способом тренировки боевых навыков на коне.",
       video: "",
     },
-    {
-      id: 11,
-      image: "https://lh4.googleusercontent.com/proxy/VPYArGNXv5v2o6_rk-zHH3HSnkNXyADoYettOqZh8W_tcTz5HYUzNSWa_K9qPUEzpfcHjjK54cbffABxfhmbykpUkC19iBGAki-TmobXNQedeDDpjD4s4CAsAgPqVnUFuJ3n4-0VNygbq6U4",
-      title: "Сармерден: кыргызская игра",
-      description: "Сармерден - это традиционная кыргызская игра, в которой два участника соревнуются, перемещая фишки по специальной игровой доске. Эта игра требует стратегического мышления и умения предугадывать ходы противника. Игроки ведут борьбу за захват фишек противника, используя тактические ходы и блокировки для достижения своих целей.",
-      rules: "Игроки перемещают свои фишки по игровой доске с целью захвата фишек противника. Побеждает тот, кто первым захватит определенное количество фишек. Игра ведется до тех пор, пока один из игроков не достигнет победного условия, либо до исчерпания ходов.",
-      history: "Сармерден имеет глубокие исторические корни и был популярен среди кыргызского народа в течение многих веков. Эта игра служила не только развлечением, но и способом развития стратегического мышления и логики у игроков. В традиционной кыргызской культуре игра Сармерден занимает особое место как символ ума и интеллекта.",
-      video: "",
-    },
   ],
   traditions: [
     {
-      id: 1,
+      id: 11,
       image: "https://i.ytimg.com/vi/W8vOF1_35Bg/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGHIgTChEMA8=&rs=AOn4CLALMlucOogFqPKjZqXX-eLrCetu2Q",
       title: "Упай Ордо",
       description: "Упай Ордо - это традиционный кыргызский обед, который готовится и подается в честь торжественных событий, таких как свадьбы, гулянья и праздники. Он включает в себя разнообразные блюда из мяса, овощей и традиционного лепешечного хлеба. Этот обед является символом гостеприимства и дружелюбия к гостям, поэтому его приготовление часто ассоциируется с особым уходом и вниманием к деталям. Традиционные блюда, представленные на Упай Ордо, являются неотъемлемой частью культуры и кулинарного наследия Кыргызстана.",
@@ -393,7 +384,7 @@ const sections_ru = {
       video: "",
     },
     {
-      id: 2,
+      id: 12,
       image: "https://www.advantour.com/img/kyrgyzstan/holidays/nooruz6.jpg",
       title: "Нооруз",
       description: "Нооруз - это традиционный кыргызский новый год, который отмечается весной и является одним из самых важных праздников в культуре страны. Он связан с празднованием природы, обновления и обновления жизни. В этот день люди собираются вместе с семьей и друзьями, чтобы отметить начало нового года и провести время весело и радостно.",
@@ -402,7 +393,7 @@ const sections_ru = {
       video: ""
     },
     {
-      id: 3,
+      id: 13,
       image: "https://24.kg/files/media/220/220236.jpg",
       title: "Орозо Айт, Курман Айт",
       description: "Орозо Айт и Курман Айт - это два из самых важных религиозных праздников в исламе, отмечаемые мусульманами в Кыргызстане. Орозо Айт отмечает завершение месяца Рамадан, а Курман Айт - конец праздника. В эти дни мусульмане собираются вместе с семьей и друзьями, чтобы отметить окончание священного месяца поста и празднование радостного события.",
@@ -411,14 +402,23 @@ const sections_ru = {
       video: ""
     },
     {
-      id: 4,
+      id: 14,
       image: "https://anhor.uz/wp-content/uploads/2024/03/1622723786_mceu_43022856831622723781723.jpg",
       title: "Дан тушум майрамы",
       description: "Дан тушум майрамы - это традиционный кыргызский праздник, который отмечается в честь окончания мусульманского поста месяца Рамазан. Во время этого праздника семьи и друзья собираются вместе, чтобы отметить радостное событие. Они готовят традиционные блюда и проводят время в кругу близких.",
       rules: "",
       history: "Дан тушум майрамы имеет древние корни и отмечается мусульманами в Кыргызстане с соблюдением традиционных обрядов и обычаев. Праздник символизирует окончание месяца поста и радостное возвращение к обычной жизни. Во время дан тушум майрамы люди делятся радостью и благополучием с близкими, а также помнят о нуждающихся, оказывая им помощь и поддержку.",
       video: ""
-    }
+    },
+    {
+      id: 15,
+      image: "https://lh4.googleusercontent.com/proxy/VPYArGNXv5v2o6_rk-zHH3HSnkNXyADoYettOqZh8W_tcTz5HYUzNSWa_K9qPUEzpfcHjjK54cbffABxfhmbykpUkC19iBGAki-TmobXNQedeDDpjD4s4CAsAgPqVnUFuJ3n4-0VNygbq6U4",
+      title: "Сармерден: кыргызская игра",
+      description: "Сармерден - это традиционная кыргызская игра, в которой два участника соревнуются, перемещая фишки по специальной игровой доске. Эта игра требует стратегического мышления и умения предугадывать ходы противника. Игроки ведут борьбу за захват фишек противника, используя тактические ходы и блокировки для достижения своих целей.",
+      rules: "Игроки перемещают свои фишки по игровой доске с целью захвата фишек противника. Побеждает тот, кто первым захватит определенное количество фишек. Игра ведется до тех пор, пока один из игроков не достигнет победного условия, либо до исчерпания ходов.",
+      history: "Сармерден имеет глубокие исторические корни и был популярен среди кыргызского народа в течение многих веков. Эта игра служила не только развлечением, но и способом развития стратегического мышления и логики у игроков. В традиционной кыргызской культуре игра Сармерден занимает особое место как символ ума и интеллекта.",
+      video: "",
+    },
   ]
 }
 
@@ -434,8 +434,28 @@ if (localStorage.getItem('language') == null) {
 }
 btns.forEach(btn => {
   btn.addEventListener('click', (e) => {
-    localStorage.setItem('language', e.target.textContent);
-    localStorage.setItem('sections', JSON.stringify(sections[e.target.textContent.toLowerCase()]));
-    window.location.reload();
+    let selected = JSON.parse(localStorage.getItem('selected_section'))
+    let lngBtn = e.target.textContent
+    localStorage.setItem('language', lngBtn);
+    localStorage.setItem('sections', JSON.stringify(sections[lngBtn.toLowerCase()]));
+    // localStorage.setItem('selected_section', JSON.stringify(sections[e.target.textContent.toLowerCase()].find(el => el.id === selected.id)))
+    switch (localStorage.getItem('language')) {
+      case 'ru':
+        localStorage.setItem( 'selected_section', JSON.stringify(sections.ru.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.ru.games.find(el => el.id === selected.id)));
+      break;
+        
+      case 'kg': 
+        localStorage.setItem( 'selected_section', JSON.stringify(sections.kg.traditions.find(el => el.id === selected.id))  ?? JSON.stringify(sections.kg.games.find(el => el.id === selected.id)));
+      break;
+        
+      case 'en':  
+        localStorage.setItem( 'selected_section', JSON.stringify(sections.en.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.en.games.find(el => el.id === selected.id)));
+      break;
+    
+      default:
+        break;
+      }
+      window.location.reload();
   });
+
 });

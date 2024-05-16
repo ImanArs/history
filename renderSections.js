@@ -17,7 +17,7 @@ const card = (obj) => {
 }
 
 function onNextPage (id) {
-  const selectedSection = localSections.games.find(section => section.id === id);
+  const selectedSection = localSections.games.find(section => section.id === id) ?? localSections.traditions.find(section => section.id === id);
   localStorage.setItem('selected_section', JSON.stringify(selectedSection));
   window.location.href='./details.html'
 }
