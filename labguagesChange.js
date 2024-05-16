@@ -439,24 +439,25 @@ btns.forEach(btn => {
     let lngBtn = e.target.textContent
     localStorage.setItem('language', lngBtn);
     localStorage.setItem('sections', JSON.stringify(sections[lngBtn.toLowerCase()]));
-    // localStorage.setItem('selected_section', JSON.stringify(sections[e.target.textContent.toLowerCase()].find(el => el.id === selected.id)))
-    switch (localStorage.getItem('language')) {
-      case 'ru':
-        localStorage.setItem( 'selected_section', JSON.stringify(sections.ru.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.ru.games.find(el => el.id === selected.id)));
-      break;
-        
-      case 'kg': 
-        localStorage.setItem( 'selected_section', JSON.stringify(sections.kg.traditions.find(el => el.id === selected.id))  ?? JSON.stringify(sections.kg.games.find(el => el.id === selected.id)));
-      break;
-        
-      case 'en':  
-        localStorage.setItem( 'selected_section', JSON.stringify(sections.en.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.en.games.find(el => el.id === selected.id)));
-      break;
-    
-      default:
-        break;
+    if (localStorage.getItem('selected_section')) {  
+      switch (localStorage.getItem('language')) {
+        case 'ru':
+          localStorage.setItem( 'selected_section', JSON.stringify(sections.ru.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.ru.games.find(el => el.id === selected.id)));
+          
+        case 'kg': 
+          localStorage.setItem( 'selected_section', JSON.stringify(sections.kg.traditions.find(el => el.id === selected.id))  ?? JSON.stringify(sections.kg.games.find(el => el.id === selected.id)));
+          
+        case 'en':  
+          localStorage.setItem( 'selected_section', JSON.stringify(sections.en.traditions.find(el => el.id === selected.id)) ?? JSON.stringify(sections.en.games.find(el => el.id === selected.id)));
+      
+        default:
+          break;
       }
-      window.location.reload();
-  });
+    }
 
+    window.location.reload();
+  });
+  if (btn.textContent === localStorage.getItem('language')) {
+    btn.style.color = 'red'
+  }
 });
