@@ -42,6 +42,10 @@
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 200px;
 }
 .mainPage .sections div img {
   width: 100%;
@@ -58,4 +62,18 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+.mainPage .sections div button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #c8c8c8;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.mainPage .sections div button:hover {
+  background-color: #e0e0e0;
 }/*# sourceMappingURL=mainPage.css.map */

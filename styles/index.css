@@ -36,8 +36,12 @@ aside .list {
   position: sticky;
   top: 0;
 }
+aside h4 {
+  margin-top: 50px;
+
+}
 aside ul {
-  margin-top: 60px;
+  margin: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -82,4 +86,8 @@ body {
   grid-template-columns: 200px 1fr;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  display: none;
 }

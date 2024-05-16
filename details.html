@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/index.css">
-  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./details.css">
   <title>Document</title>
 </head>
@@ -12,7 +12,7 @@
   <header class="header">
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
         <li class="nav__item"><a href="#" class="nav__link">About</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
@@ -29,8 +29,8 @@
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0LDXhQc4bpR24k4PhCYs9poAnc0RVd9jcwo9oKyDjQ&s" alt="Logo" class="logo__img">
     </div>
     <div class="list">
-      <ul>
-        <caption>• Игры</caption>
+      <h4>• Игры</h4>
+      <ul id="links-games">
         <li><a href="./pages/details.html" class="link">Ат Чабыш</a></li>
         <li><a href="#" class="link">Жорго-Салыш</a></li>
         <li><a href="#" class="link">Улак-Тарыш</a></li>
@@ -43,8 +43,8 @@
         <li><a href="#" class="link">Куш салуу</a></li>
         <li><a href="#" class="link">Сармерден</a></li>
       </ul>
-      <ul>
-        <caption>• Традиции</caption>
+      <h4>• Традиции</h4>
+      <ul id="links-traditions">
         <li><a href="#" class="link">Упай Ордо</a></li>
         <li><a href="#" class="link">Нооруз</a></li>
         <li><a href="#" class="link">Орозо Айт, Курман Айт</a></li>
@@ -86,6 +86,7 @@
     </div>
   </footer>
   <script src="./details.js"></script>
-  <script src="../labguagesChange.js"></script>
+  <script src="./labguagesChange.js"></script>
+  <script src="./renderAside.js"></script>
 </body>
 </html>

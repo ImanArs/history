@@ -2,7 +2,6 @@ const sectionGames = document.querySelector('#section-games');
 const sectionTraditions = document.querySelector('#section-traditions');
 
 let localSections = JSON.parse(localStorage.getItem('sections')) ?? [];
-console.log(localSections);
 
 const card = (obj) => {
   return `
@@ -12,16 +11,17 @@ const card = (obj) => {
       <h2>${obj.title}</h2>
       <p>${obj.description}</p>
     </div>
+    <button>go</button>
   </div>
   `
 }
 
 function onNextPage (id) {
-  console.log(id);
   const selectedSection = localSections.games.find(section => section.id === id);
   localStorage.setItem('selected_section', JSON.stringify(selectedSection));
-  window.location.href='./pages/details.html'
+  window.location.href='./details.html'
 }
+
 const renderSections = () => {
   let htmlGames = '';
   localSections.games.forEach(section => {
