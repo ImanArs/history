@@ -431,6 +431,7 @@ const sections = {
 let btns = document.querySelectorAll('#btns button');
 if (localStorage.getItem('language') == null) {
   localStorage.setItem('language', 'ru');
+  localStorage.setItem('sections', JSON.stringify(sections.ru));
 }
 btns.forEach(btn => {
   btn.addEventListener('click', (e) => {
