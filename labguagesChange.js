@@ -421,24 +421,39 @@ const sections_ru = {
     },
   ]
 }
+/**
+ * Этот скрипт JavaScript отвечает за изменение языка на веб-странице.
+ * Он использует объект sections для хранения данных разделов на разных языках.
+ * При клике на кнопку языка скрипт обновляет данные в локальном хранилище и перезагружает страницу.
+ */
 
+// Объект sections содержит данные разделов на разных языках
 const sections = {
   ru: sections_ru,
   kg: sections_kg,
   en: sections_en,
 }
 
+// Получаем все кнопки языка
 let btns = document.querySelectorAll('#btns button');
+
+// Если в локальном хранилище нет выбранного языка, устанавливаем русский язык по умолчанию
 if (localStorage.getItem('language') == null) {
   localStorage.setItem('language', 'ru');
   localStorage.setItem('sections', JSON.stringify(sections.ru));
 }
+
+// Добавляем обработчик события click на каждую кнопку языка
 btns.forEach(btn => {
   btn.addEventListener('click', (e) => {
+    // Получаем выбранный раздел из локального хранилища
     let selected = JSON.parse(localStorage.getItem('selected_section'))
+    // Получаем выбранный язык из текста кнопки
     let lngBtn = e.target.textContent
+    // Обновляем язык и данные разделов в локальном хранилище
     localStorage.setItem('language', lngBtn);
     localStorage.setItem('sections', JSON.stringify(sections[lngBtn.toLowerCase()]));
+    // Если в локальном хранилище есть выбранный раздел, обновляем его данные на выбранном языке
     if (localStorage.getItem('selected_section')) {  
       switch (localStorage.getItem('language')) {
         case 'ru':
@@ -455,8 +470,11 @@ btns.forEach(btn => {
       }
     }
 
+    // Перезагружаем страницу, чтобы применить изменения языка
     window.location.reload();
   });
+
+  // Если текст кнопки совпадает с выбранным языком, меняем цвет текста кнопки на красный
   if (btn.textContent === localStorage.getItem('language')) {
     btn.style.color = 'red'
   }

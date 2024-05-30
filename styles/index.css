@@ -91,3 +91,23 @@ body {
 footer {
   display: none;
 }
+
+@media screen and (max-width: 768px){
+  body {
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px){
+  header nav .nav__item{
+    display: none;
+  }
+  header nav .nav__item:nth-child(1){
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+}
